@@ -1,0 +1,24 @@
+artifact_path: file:c:/Users/LENOVO/Desktop/red/ingenieria-conocimiento-uncp/Tarea/mlruns/1/models/m-3f817f6fc6a9434a92cd0576c9007c65/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.14.3
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.8.0
+    skops_trusted_types:
+    - sklearn.tree._tree.Tree
+mlflow_version: 3.16.1
+model_id: m-3f817f6fc6a9434a92cd0576c9007c65
+model_size_bytes: 93030975
+model_uuid: m-3f817f6fc6a9434a92cd0576c9007c65
+prompts: null
+run_id: be348abef0704d7189724ef9270f9fe1
+utc_time_created: '2026-09-18 01:59:04.997553'
